@@ -1,0 +1,96 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background: #282828;
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+    background-size: 400% 400%;
+    animation: Gradient 15s ease infinite;
+}
+
+header{
+    background: transparent;
+    color:#ffffff;
+    padding-top:30px;
+    min-height:70px;
+    font-size:16px;
+  }
+  
+  header a{
+    color:#ffffff;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size:16px;
+  }
+  
+  header li{
+    float:left;
+    display:inline;
+    /* padding: 0 20px 0 20px; */
+    padding-right: 50px;
+  }
+  
+  header #branding{
+    float:left;
+  }
+  
+  header #branding h1{
+    margin:0;
+    padding-left: 50px;
+  }
+  
+  header nav{
+    float:right;
+    margin-top:10px;
+  }
+  
+  header .highlight, header .current a{
+    color: black;
+  }
+  
+  header a:hover{
+    color:#cccccc;
+    font-weight:bold;
+  } 
+
+  .paragraph1 h1{
+    font-weight: lighter;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 50px;
+    margin-top: 200px;
+  }
+
+  .paragraph1 p{
+    color: #ffff;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 20px;
+  }
+
+ 
+#boxes{
+    margin-top:200px;
+  }
+  
+  #boxes .box{
+    float:left;
+    text-align: center;
+    width:30%;
+    padding-left: 20px;
+    padding-right: 20px;;
+  }
+  
+  #boxes .box img{
+    width:90px;
+  }
+
+  @-webkit-keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+}
+    50%{
+    background-position: 100% 50%
+}
+    100%{
+    background-position: 0% 50%;
+}
+}
