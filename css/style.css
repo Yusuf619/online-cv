@@ -56,5 +56,41 @@ html{
   display: none;
 }
 
+/* Showcase */
+
+#showcase{
+  min-height:600px;
+  text-align:center;
+  color:#182628;
+  
+}
+
+#showcase h1{
+  margin-top:100px;
+  font-size:55px;
+  margin-bottom:10px;
+}
+#more {display: none;}
+
+.img{
+  height: 840px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+
+#showcase p{
+  font-size:20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.show{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
 
 
