@@ -125,5 +125,20 @@ html{
   background-size: cover;
 }
 
+/*Articles*/
+.article1{
+  height:500px;
+  background-color:white;
+  font-size:36px;
+  text-align: center;
+
+}
+
+.article2{
+  height:1000px;
+  background-color:white;
+  font-size:36px;
+  text-align: center;
+}
 
 
