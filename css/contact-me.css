@@ -52,7 +52,7 @@ header{
 
 
 .wrapper h1{
-    font-weight: lighter;
+    /* font-weight: lighter; */
     font-size: 80px;
     text-align: center;
     padding-top: 50px;
