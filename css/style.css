@@ -1,22 +1,12 @@
-/* Body */
-html{
-    height: 100%;
-    overflow: hidden;
-}
+body{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 22px;
+  padding:0;
+  margin:0;
+  background-color: #ffffff;
 
- body{
-    background-color: ivory;
-    color: black;
-    margin: 0;
-    padding: 0;
-    perspective: 1px;
-    transform-style: preserve-3d;
-    height: 100%;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    font-family: 'Courier New', Courier, monospace;
-}
 
+}
 
 
 
@@ -178,4 +168,6 @@ ul{
     text-align: left;
   }
 }
+
+
 
