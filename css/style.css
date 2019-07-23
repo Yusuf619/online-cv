@@ -93,4 +93,37 @@ html{
   overflow:hidden;
 }
 
+/*Parallax */
+
+.parallax {
+  
+  background:url('../img/back.jpg');
+  height: 100%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax3{
+
+  background:url('../img/trees.jpg');
+  height: 100%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.parallax5 {
+
+  background:url('../img/back2\ copy.jpg');
+  height: 100%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
 
