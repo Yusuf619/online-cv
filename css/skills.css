@@ -115,3 +115,12 @@ body{
     float: left;
   }
 }
+
+@media(max-width: 1225px){
+  #boxes .box{
+    float:none;
+    text-align:center;
+    width:100%;
+    margin-top: 50px;
+  }
+}
