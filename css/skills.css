@@ -105,6 +105,18 @@ body{
     background-position: 0% 50%;
 }
 }
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding:20px;
+  margin-top:20px;  
+  color:#ffffff;
+  font-weight: lighter;
+  text-align: center;
+}
+
 /* MEDIA Queries */
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
