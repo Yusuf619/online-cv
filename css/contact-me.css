@@ -107,6 +107,24 @@ body{
     }
 }    
 
+ 
+#boxes{
+  margin-top:200px;
+}
+
+#boxes .box{
+  float:left;
+  text-align: center;
+  width:30%;
+  padding-left: 20px;
+  padding-right: 20px;;
+}
+
+#boxes .box img{
+  width:90px;
+}
+
+
 /* MEDIA Queries */
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
@@ -134,5 +152,15 @@ body{
 @media screen and (max-width:800px) {
   .left, .main, .right {
     width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+
+
+@media(max-width: 1225px){
+  #boxes .box{
+    float:none;
+    text-align:center;
+    width:100%;
+    margin-top: 50px;
   }
 }

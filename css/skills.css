@@ -78,6 +78,9 @@ body{
   #boxes .box img{
     width:90px;
   }
+  .box i{
+    font-size: 50px;
+  }
 
   @-webkit-keyframes Gradient {
     0% {
