@@ -71,8 +71,7 @@ font-size: 17px;
   text-align: center;
   width:30%;
   margin-bottom: 100px;
-  /* padding-left: 20px; 
-  padding-right: 20px; */
+ 
 }
 
 #box1{
@@ -89,9 +88,6 @@ font-size: 17px;
 
 #boxes .box img{
   width:90px;
-}
-.box i{
-  font-size: 50px;
 }
 
 @-webkit-keyframes Gradient {
