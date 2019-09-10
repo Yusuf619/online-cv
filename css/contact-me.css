@@ -1,3 +1,4 @@
+/* MAIN BODY */
 body{
   font-family: 'Courier New', Courier, monospace;
   background: #282828;
@@ -15,7 +16,6 @@ body{
   float: left;
 
 }
-
 .topnav a {
   float: right;
   display: block;
@@ -103,7 +103,7 @@ body{
 }
 }    
 
-
+/* BOXES */
 #boxes{
   margin-top:100px;
 }
@@ -135,6 +135,7 @@ body{
 .box i{
   font-size: 50px;
 }
+/* FOOTER */
 footer{
   position: fixed;
   left: 0;
@@ -169,11 +170,9 @@ footer{
   text-align: left;
 }
 }
-
-/* Use a media query to add a break point at 800px: */
 @media screen and (max-width:800px) {
   .left, .main, .right {
-  width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+  width:100%; 
 }
 }
 
