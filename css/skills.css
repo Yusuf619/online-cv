@@ -1,5 +1,5 @@
 body{
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Maven Pro', sans-serif;
   background: #282828;
   background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5,#23D5AB, #EE7754);
   background-size: 400% 400%;
@@ -58,41 +58,32 @@ font-size: 17px;
   text-align: center;
   font-weight: lighter;
   font-size: 20px;
+  margin-bottom: 100px;
 }
 
 /* BOXES */
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
 
 #boxes{
-  margin-top:100px;
+  margin-top:20px;
+  margin-bottom: 200px;
 }
 
 #boxes .box{
-  float: left;
+  float:left;
   text-align: center;
   width:30%;
-  margin-bottom: 100px;
- 
-}
-
-#box1{
-  width: 25% !important;
-}
-
-#box2{
-  width: 50% !important;
-}
-
-#box3{
-  width: 25% !important;
+  padding:10px;
 }
 
 #boxes .box img{
   width:90px;
 }
 
-.col{
-  text-align: center;
-}
 
 @-webkit-keyframes Gradient {
   0% {
@@ -138,16 +129,13 @@ footer{
   display: block;
   text-align: left;
 }
-.box{
-  float: left;
-}
 }
 
-@media(max-width: 1225px){
-  #box1 #box2 #box3{
-  float:none;
-  text-align:center;
-  width:100%;
-  margin-top: 50px;
-}
+@media(max-width: 768px){
+  #boxes .box{
+    float:none;
+    text-align:center;
+    width:100%;
+  }
+
 }
