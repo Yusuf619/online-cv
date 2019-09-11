@@ -197,16 +197,13 @@ ul{
   padding-left: 20px;
   padding-right: 20px;
 }
-footer{
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  padding:20px;
-  margin-top:20px;  
+
+/* FOOTER */
+.footer{
+  width: 100%; 
   color:#ffffff;
-  font-weight: lighter;
   text-align: center;
+  font-size: 15px;
 }
 
 
@@ -231,6 +228,13 @@ footer{
   display: block;
   text-align: left;
 }
+}
+@media(max-width: 768px){
+  .footer{
+    float:none;
+    text-align:center;
+    width:100%;
+  }
 }
 
 

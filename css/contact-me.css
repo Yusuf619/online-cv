@@ -132,16 +132,11 @@ body{
   font-size:50px;
 }
 /* FOOTER */
-footer{
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  padding:20px;
-  margin-top:20px;  
+.footer{
+  width: 100%; 
   color:#ffffff;
-  font-weight: lighter;
   text-align: center;
+  font-size: 15px;
 }
 
 /* MEDIA Queries */
@@ -176,6 +171,13 @@ footer{
 
 @media(max-width: 768px){
   #boxes .box{
+    float:none;
+    text-align:center;
+    width:100%;
+  }
+}
+@media(max-width: 768px){
+  .footer{
     float:none;
     text-align:center;
     width:100%;
