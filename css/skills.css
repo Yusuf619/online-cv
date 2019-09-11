@@ -44,7 +44,7 @@ font-size: 17px;
   display: none;
 }
 
-
+/* INTRO */
 .paragraph1 h1{
   font-weight: lighter;
   font-size: 80px;
@@ -88,6 +88,10 @@ font-size: 17px;
 
 #boxes .box img{
   width:90px;
+}
+
+.col{
+  text-align: center;
 }
 
 @-webkit-keyframes Gradient {
