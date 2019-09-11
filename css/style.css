@@ -46,7 +46,7 @@ ul{
 .topnav a {
   float: right;
   display: block;
-  color: #f2f2f2;
+  color: black;
   text-align: center;
   padding: 18px 20px;
   padding-right: 20px;
@@ -191,7 +191,7 @@ ul{
 
 }
 .article3 p{
-  height:500px;
+  height:450px;
   font-size:36px;
   text-align: center;
   padding-left: 20px;
@@ -199,11 +199,13 @@ ul{
 }
 
 /* FOOTER */
+
 .footer{
   width: 100%; 
-  color:#ffffff;
+  color: darkslategray;
   text-align: center;
   font-size: 15px;
+  margin-bottom: 20px;
 }
 
 
