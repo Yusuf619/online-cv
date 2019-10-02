@@ -1,6 +1,8 @@
 /* NAVBAR START */
 * {box-sizing: border-box;}
-
+html{
+  scroll-behavior: smooth;
+}
 body { 
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -136,6 +138,9 @@ body, html {
 .hero-text button:hover {
   background-color: #555;
   color: white;
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
 }
 /* HERO IMAGE END */
 
@@ -175,6 +180,11 @@ body, html {
   /* background-color: #bbb; */
   color: black;
 }
+
+.flip-card-front img {
+  /* background-color: #bbb; */
+  margin-top: 100px;
+}
 .card{
   border:none !important; 
 }
@@ -185,11 +195,14 @@ body, html {
 }
 
 .flip-card-back {
-  background-color: #2980b9;
+  background-color: dodgerblue;
   color: white;
   transform: rotateY(180deg);
 }
 
+.flip-card-back h1{
+  padding-top: 100px;
+}
 @media screen and (max-width: 600px) {
   .card {
     width: 100%;
@@ -212,6 +225,14 @@ body, html {
     top: 8px;
     left: 16px;
   }
+
+  /* EDUCATION START */
+
+
+
+/* Create two equal columns that floats next to each other */
+
+  /* EDUCATION END */
 
   /* ABOUT SECTION */
 
@@ -250,13 +271,49 @@ body, html {
     padding-left: 20px;
   }
 
+  .btn1{
+    background-color: #2980b9;
+    color: #f1f1f1;
+    transition: transform .2s;
+    border: none;
+
+  }
+
+
+  /* EDUCATION START */
+  .education{
+    width: 100vw;
+    height: 600px;
+}
+
+.education h2{
+    text-align: center;
+    font-size:50px;
+    padding-top: 50px;
+  
+}
+
+.btn1{
+  font-weight: lighter;
+}
+
+  .btn1:hover{
+    /* width: 100px;
+    height: 50px; */
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+
+   
+  }
+
   .round-img {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     overflow: hidden;
     border-radius: 50%;
     margin: auto;
-   margin-top: 200px;
+   margin-top: 150px;
   }
 
   .round-img img {
@@ -330,6 +387,12 @@ body, html {
     
     body {
       font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .skills h2{
+        text-align: center;
+        font-size:50px;
+        padding-top: 50px;
     }
     
     /* Float four columns side by side */
@@ -415,6 +478,7 @@ body, html {
   }
   .social-wrapper{
     text-align: center;
+    padding-top: 50px;
   }
 
   .img-hover-zoom {
