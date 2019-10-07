@@ -235,7 +235,7 @@ body {
 }
 
 .about hr{
-  border: 0.5px solid black;
+  border: 0.5px solid #2980b9;
   width: 80%;
 }
 
@@ -268,7 +268,7 @@ body {
 
 .services hr{
   width: 50%;
-  color: black;
+  color: #2980b9;
   font-size: lighter;
 }
 
@@ -337,7 +337,7 @@ body {
   }
   .projects hr{
     width: 50%;
-    border: 0.5px solid white;
+    border: 0.5px solid #2980b9;
     
   }
   /* projects START */
@@ -425,7 +425,7 @@ body {
 }
 
 .hr{
-  border: 0.5px solid black;
+  border: 0.5px solid #2980b9;
 }
 .education img{
     float: left;
@@ -453,7 +453,7 @@ body {
 }
 
 .contact hr{
-  border: 0.5px solid black;
+  border: 0.5px solid #2980b9;
   width: 80%;
 }
 
