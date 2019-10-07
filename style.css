@@ -56,7 +56,7 @@ body {
 }
 
   
-  .navbar a:hover {
+  .navbar a:hover:not(.active) {
     background-color: #2980b9 ;
     height: 100%;
     color: white
@@ -435,6 +435,18 @@ body {
 .education img{
     float: left;
 
+}
+
+.education h3{
+  margin-left: 5%;
+  margin-top: 50px;
+}
+
+.education p{
+  margin-left: 10%;
+  margin-top: 50px;
+  font-size: 20px;
+  font-weight: lighter;
 }
 
 
