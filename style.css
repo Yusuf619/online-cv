@@ -58,6 +58,7 @@ body {
   
   .navbar a:hover {
     background-color: #2980b9 ;
+    height: 100%;
     color: white
   }
   
@@ -66,6 +67,10 @@ body {
     float: left;
   }
   
+  span{
+    color: #2980b9;
+    font-size: 25px;
+  }
   .navbar .icon {
     display: none;
   }
@@ -337,7 +342,7 @@ body {
   }
   .projects hr{
     width: 50%;
-    border: 0.5px solid #2980b9;
+    border: 0.5px solid white;
     
   }
   /* projects START */
@@ -409,7 +414,7 @@ body {
   /* EDUCATION START */
 .education{
   width: 100%;
-  min-height: 500px;
+  min-height: 1000px;
 }
 
 .education h2{
