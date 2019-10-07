@@ -1,391 +1,286 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- CSS BOOTSTRAP -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <!-- FONT AWESOME -->
-    <script src="https://kit.fontawesome.com/ac87d8aca0.js" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="main.js"></script>
-    
-    <title>New CV</title>
-    <!-- <i class="fas fa-portrait"></i> -->
+<!-- BOOTSRAP JAVASCRIPT -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<!-- FONT AWESOME -->
+
+<!-- GOOGLE FONTS -->
+<link href="https://fonts.googleapis.com/css?family=Questrial&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/ac87d8aca0.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="style.css">
+<script src="main.js"></script>
+
 </head>
 <body>
 
+<!-- NAVBAR START -->
 
-
-
-<!-- NAV BAR START -->
-
-
-<!-- <div id="navbar" >
-    <a href="#default" id="logo">Yusuf Hendricks</a>
-    <div id="navbar-right">
-      <a class="active" href="#home">Home</a>
-      <a href="#about-me">About</a>
-      <a href="#">Education</a>
-      <a href="#skills">Projects</a>
-      <a href="#projects">Skills</a>
-      <a href="#contact">Contact</a>
-     
-      
-    </div>
+<div class="navbar" id="mnavbar">
 
     
-  </div> -->
+  <div class="navbar-r">
+  <a href="#home" class="active">Home</a>
+  <a href="#contact">Contact</a>
+  <a href="#projects">Projects</a>
+  <a href="#education">Education</a>
+  <a href="#services">Services</a>
+  <a href="#about">About</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fas fa-hamburger"></i>
+  </a>
+</div>
+</div>
 
-  <div class="topnav" id="myTopnav">
-      <a href="#home" id="logo" class="active">Home</a>
-      <a href="#news">News</a>
-      <a href="#contact">Contact</a>
-      <a href="#about">About</a>
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
-      </a>
-    </div>
-
-
-
-  <div class="hero-image">
-      <div class="hero-text">  
-        <h1 style="font-size:50px" id="home">I Am:</h1>
-        <marquee  scrollamount="20" onmousedown="this.stop();" onmouseup="this.start();" class="marquee" behavior="scroll" direction="right">
-          <ul>
-          <li>Junior Web Developer</li>
-          <li>Junior Web Designer</li>
-          <li>Front-End Developer</li>
-
-        </ul>
-      </marquee>
-    
-     
-        
-        <button>Hire me</button>
-      </div>
-    </div>
-
+<section class="hero">
   
-  <div>
-      <section class="about-me" id="about-me">
-          <div class="row">
-                  <div class="column" style="background-color:#aaa;">
-          
-                    <div class="round-img">
-                          <img src="Headshot.jpg"/>
-                        </div>
-                  
-                  
-                  </div>
-                  <!-- INFO -->
-                  <div class="column2">
-                    <h2>About Me</h2>
-                    <hr>
-                    <p>Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Nulla porttitor accumsan tincidunt.</p>
-                    <br>
-                    <p>Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Nulla porttitor accumsan tincidunt.</p>
-                    <br>
-                    <p>Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Nulla porttitor accumsan tincidunt.</p>
-                    <br>
-                  </div>
-                </div>  
-               
-  </section>
-
-  </div>
-
-
-         
-
- <!-- NAVBAR END -->
-
-
-
-
-
-
-
-
-
-<!-- ABOUT SECTION -->
- <section class="education" id="education">
-   <h2>EDUCATION</h2>
-    
-
-</section> 
-
-
-<!-- ABOUT SECTION END -->
-
-<section class="skills" id="skills">
-  <h2>Projects</h2>
-    <div class="rows">
-        <div class="columns">
-          <div class="cards">
-            <h3>Tribute Page</h3>
-            <!-- <p>Some text</p>
-            <p>Some text</p> -->
-            <a href="https://github.com/Yusuf619/nelson-mandela-tribute-page"><button class="btn1">view git</button></a>
-          </div>
-        </div>
+    <div class="hero-image">
+        <div class="hero-text">  
+          <h1 style="font-size:50px" id="home">I Am:</h1>
+          <marquee  scrollamount="20" onmousedown="this.stop();" onmouseup="this.start();" class="marquee" behavior="scroll" direction="right">
+            <ul>
+            <li>Junior Web Developer</li>
+            <li>Junior Web Designer</li>
+            <li>Front-End Developer</li>
+  
+          </ul>
+        </marquee>
       
-        <div class="columns">
-          <div class="cards">
-            <h3>Todo App</h3>
-            <!-- <p>Some text</p>
-            <p>Some text</p> -->
-            <a href="https://github.com/Yusuf619/todo-part2"><button class="btn1">view git</button></a>
-          </div>
-        </div>
-        
-        <div class="columns">
-          <div class="cards">
-            <h3>Hotel Booking Form</h3>
-            <!-- <p>Some text</p>
-            <p>Some text</p> -->
-            <a href="https://github.com/Yusuf619/hotel-booking-form"><button class="btn1">view git</button></a>
-          </div>
-        </div>
-        
-        <div class="columns">
-          <div class="cards">
-           <h3>Online Store</h3>
-            <!-- <p>Some text</p>
-            <p>Some text</p> -->
-            <a href="https://github.com/Yusuf619/nates-online-store"><button class="btn1">view git</button></a>
+       
+          
+        <div class="arrow bounce">
+            <a class="fa fa-arrow-down fa-2x" href="#about"></a>
+           
           </div>
         </div>
       </div>
-      
+  
 </section>
 
+<!-- NAVBAR END -->
 
+<!-- ABOUT START -->
+<div class="about" id="about">
 
+<div class="row">
+  <div class="column" style="background-color:#ffff;">
+    <!-- <h2>Column 1</h2>
+    <p>Some text..</p> -->
+    <div class="column">
+        <div class="circular--portrait">
+          <img src="Headshot.jpg" />
+        </div>
+      </div>
+  </div>
+  <div class="column1" style="background-color:#ffff;">
+    <h2>About Me</h2>
+    <hr class="hr">
+    <p>I am a Junior Web developer, hungry for experience aswell as an opportunity to showcase my skills, creativeness and design thinking.</p>
+  </div>
+</div>
 
+<!-- ABOUT END -->
 
-
-
-
-
-
-<section class="projects" id="projects">
+<!-- SERVICES START -->
+<section class="services">
+    <h2>SERVICES</h2>
+    <hr class="hr">
+    <br>
   
-        <div class="py-5">
-          <div class="container">
-              <h2>Skills</h2>
-              <br>
-            <div class="row hidden-md-up">
 
-
-              <div class="col-md-4">
-                <div class="card" >
-                  <div class="card-block">
-                  
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                          <div class="flip-card-front">
-                            <img src="php.png" alt="Avatar" style="width:60px;height:60px;">
-                          </div>
-                          <div class="flip-card-back">
-                            <h1>Intermediate PHP</h1> 
-                            <!-- <p></p> 
-                            <p>We love that guy</p> -->
-                          </div>
-                        </div>
-                      </div>
+  <div class="rows">
+      <div class="column3">
+        <div class="cards">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="php.png" alt="Avatar" style="width:90px;height:90px;">
+                  </div>
+                  <div class="flip-card-back">
+                      <h1>PHP / MYSQL</h1> 
                   </div>
                 </div>
               </div>
-
-              <div class="col-md-4">
-                  <div class="card" >
-                    <div class="card-block">
-                    
-                      <div class="flip-card">
-                          <div class="flip-card-inner">
-                            <div class="flip-card-front">
-                              <!-- <img src="html5.png" alt="Avatar" style="width:300px;height:300px;"> -->
-                              <i class="fab fa-html5"></i>
-                            </div>
-                            <div class="flip-card-back">
-                              <h1>HTML 5</h1> 
-                              <!-- <p>Architect & Engineer</p> 
-                              <p>We love that guy</p> -->
-                            </div>
-                          </div>
-                        </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="card" >
-                      <div class="card-block">
-                      
-                        <div class="flip-card">
-                            <div class="flip-card-inner">
-                              <div class="flip-card-front">
-                                <!-- <img src="bg1.jpg" alt="Avatar" style="width:300px;height:300px;"> -->
-                                <i class="fab fa-css3-alt"></i>
-                              </div>
-                              <div class="flip-card-back">
-                                <h1>CSS</h1> 
-                                <!-- <p>Architect & Engineer</p> 
-                                <p>We love that guy</p> -->
-                              </div>
-                            </div>
-                          </div>
-                      </div>
-                    </div>
-                  </div>
-
-
-            </div><br>
-          </div>
         </div>
-
-        <div class="py-5">
-            <div class="container">
-         
-                <br>
-              <div class="row hidden-md-up">
-  
-  
-                <div class="col-md-4">
-                  <div class="card" >
-                    <div class="card-block">
-                    
-                      <div class="flip-card">
-                          <div class="flip-card-inner">
-                            <div class="flip-card-front">
-                              <!-- <img src="bg1.jpg" alt="Avatar" style="width:300px;height:300px;"> -->
-                              <i class="fab fa-js-square"></i>
-                            </div>
-                            <div class="flip-card-back">
-                              <h1>JAVASCRIPT</h1> 
-                              <!-- <p>Architect & Engineer</p> 
-                              <p>We love that guy</p> -->
-                            </div>
-                          </div>
-                        </div>
-                    </div>
+      </div>
+    
+      <div class="column3">
+        <div class="cards">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                      <i class="fab fa-html5"></i>
+                  </div>
+                  <div class="flip-card-back">
+                      <h1>HTML 5</h1> 
                   </div>
                 </div>
-  
-                <div class="col-md-4">
-                    <div class="card" >
-                      <div class="card-block">
-                      
-                        <div class="flip-card">
-                            <div class="flip-card-inner">
-                              <div class="flip-card-front">
-                                <img src="jq.png" alt="Avatar" style="width:60px;height:60px;">
-                              </div>
-                              <div class="flip-card-back">
-                                <h1>JQUERY</h1> 
-                                <!-- <p>Architect & Engineer</p> 
-                                <p>We love that guy</p> -->
-                              </div>
-                            </div>
-                          </div>
-                      </div>
-                    </div>
+              </div>
+        </div>
+      </div>
+      
+      <div class="column3">
+        <div class="cards">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                      <i class="fab fa-css3-alt"></i>
                   </div>
+                  <div class="flip-card-back">
+                      <h1>CSS</h1> 
+                  </div>
+                </div>
+              </div>
+        </div>
+      </div>
+      
+      <div class="column3">
+        <div class="cards">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                      <i class="fab fa-js-square"></i>
+                  </div>
+                  <div class="flip-card-back">
+                      <h1>JAVASCRIPT</h1> 
+                  </div>
+                </div>
+              </div>
+        </div>
+      </div>
+    </div>
+</section>
+</div>
+<!-- SERVICE END -->
+
+
+<!-- EDUCATION START -->
+<section class="education">
+
+<h2>EDUCATION</h2>
+<hr class="hr">
+<div>
+    <p><img src="logo.svg" alt="Pineapple" style="width:200px;height:200px;margin-left:30px;">
+        4 Week web academy , including introduction to Html5, Css3, Javascript , Design Thinking and 21st Century Skills.
+    </p>
+
+
+<!-- <div>
+    <p><img src="logo.svg" alt="Pineapple" style="width:200px;height:200px;margin-left:30px;">
   
-                  <div class="col-md-4">
-                      <div class="card" >
-                        <div class="card-block">
-                        
-                          <div class="flip-card">
-                              <div class="flip-card-inner">
-                                <div class="flip-card-front">
-                                  <img src="mysql.png" alt="Avatar" style="width:60px;height:60px;">
-                                </div>
-                                <div class="flip-card-back">
-                                  <h1>MSQL</h1> 
-                                  <!-- <p>Architect & Engineer</p> 
-                                  <p>We love that guy</p> -->
-                                </div>
-                              </div>
-                            </div>
-                        </div>
-                      </div>
-                    </div>
+    </p>
+</div> -->
+
+
+
   
-  
-              </div><br>
+  </section>
+<!-- EDUCATION END -->
+
+
+<!-- projects START -->
+<section class="projects" id="projects">
+
+ 
+      <h2>PROJECTS</h2>
+      <hr class="hr">
+        <div class="rows">
+            <div class="column3">
+              <div class="cards"  id="pro-img">
+                  <img src="quiz.jpg" social-icons alt="" srcset="" style="width:250px;height:200px;">
+                <h3>Online Movie Quiz</h3>
+                <!-- <p>Some text</p>
+                <p>Some text</p> -->
+                <a href="https://github.com/Yusuf619/nelson-mandela-tribute-page"><button class="btn1">view git</button></a>
+              </div>
+            </div>
+          
+            <div class="column3">
+              <div class="cards" id="pro-img">
+                <img src="todo.jpg"  alt="" srcset="" style="width:250px;height:200px;">
+                <h3>Todo App</h3>
+                <!-- <p>Some text</p>
+                <p>Some text</p> -->
+                <a href="https://github.com/Yusuf619/todo-part2"><button class="btn1">view git</button></a>
+              </div>
+            </div>
+            
+            <div class="column3" >
+              <div class="cards"  id="pro-img">
+                  <img src="hotelbooking.jpg" social-icons alt="" srcset="" style="width:250px;height:200px;">
+                <h3>Hotel Booking Form</h3>
+                <!-- <p>Some text</p>
+                <p>Some text</p> -->
+                <a href="https://github.com/Yusuf619/hotel-booking-form"><button class="btn1">view git</button></a>
+              </div>
+            </div>
+            
+            <div class="column3">
+              <div class="cards"  id="pro-img">
+                  <img src="store.jpg"  social-icons alt="" srcset="" style="width:250px;height:200px;">
+               <h3>Online Store</h3>
+                <!-- <p>Some text</p>
+                <p>Some text</p> -->
+                <a href="https://github.com/Yusuf619/nates-online-store"><button class="btn1">view git</button></a>
+              </div>
             </div>
           </div>
+          
   
-     
-        <!-- <div class="img-hover-zoom">
-            <img src="/path/to/image/" alt="This zooms-in really well and smooth">
-          </div> -->
 </section>
 
 
+<!-- projects END -->
 
 
 
-
-
-<section class="contact"> 
+<section class="contact" id="contact">
     <div class="row">
-        <div id="map" class="column" style="background-color:#aaa;">
-            <div class="container mt-4">
-                
-            <!-- <form method="POST" action="https://formspree.io/yusuf69hendricks@gmail.com">
+        <div class="column" style="background-color:#ffff;">
+
+             <form method="POST" action="https://formspree.io/yusuf69hendricks@gmail.com">
             <div class="form-group">
-                <label for="name">First Name</label>
+               
                 <input type="text" class="form-control" id="name" name="firstname"placeholder="Enter your first name." required>
             </div>
             <div class="form-group">
-                <label for="surname"> Surname</label>
+                
                 <input type="text" class="form-control" id="surname" name="surname"placeholder="Enter your surname" required>
             </div>
             <div class="form-group">
-                <label for="email">Email</label>
+                
                 <input type="email" class="form-control" id="email" name="email"placeholder="Please  enter your email address." required>
             </div>
             <div class="form-group">
-                <label for="message">message</label>
+        
                 <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
             </div>
-            <input type="submit" class="btn btn-primary-lg send-button "name="submit" value="Send Message" >
-            </form> -->
-            <div class="mapouter">
-                <div class="gmap_canvas">
-                  <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=11%20Alison%20Cl%2C%20Tafelsig%2C%20Cape%20Town%2C%207785&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-                </div>
-            </div>
-            </div>
-            </div>
- 
+            <input type="submit" class="btn btn-primary-lg send-button "name="submit" value="Send Message">
+            </form>
 
-        <!-- INFO -->
-        <div class="column2" id="contact">
-          <h2>Get in Touch</h2>
-          <hr>
+           
+        </div>
 
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolorum dolorem soluta quidem expedita aperiam aliquid at. Totam magni ipsum suscipit amet? Autem nemo esse laboriosam ratione nobis mollitia inventore?</p>
+
+        <div class="column1" style="background-color:#ffff;">
+          <h2>Contact:</h2>
+          <hr class="hr">
+          <br>
+          <br>
 
           <p><i class="fas fa-map-marker-alt"></i> 11 Alison Close,s Tafelsig, Cape Town, 7785 </p>
-
+          <br>
           <p><i class="fas fa-map-marker-alt"></i> 079 497 6331</p>
-
+        <br>  
           <p ><i class="fas fa-envelope"></i> yusuf69hendricks@gmail.com</p>
-      
-      </div> 
-
-    
+        </div>
+      </div>
 </section>
 
 
@@ -393,15 +288,7 @@
 
 
 
-
-
-
-
-
-
-<section>
-
-</section>
+  
 
 
 
@@ -409,80 +296,34 @@
 
 
 
-
-
-
-<section class="footer">
-<footer id="colophon" class="site-footer" role="contentinfo">
-  <div class="social-wrapper">
-    <ul>
-     
-      <li>
-        <a href="https://www.facebook.com/yusuf.hendricks.75" target="_blank">
-          <img src="facebook.png" alt="Facebook Logo" class="facebook-icon"></a>
-      </li>
-
-      <li>
-        <a href="https://www.linkedin.com/feed/" target="_blank">
-          <img src="linkin.png" alt="Facebook Logo" class="facebook-icon"></a>
-      </li>
-
-      <li>
-        <a href="https://www.instagram.com/ib_joemiller/" target="_blank">
-          <img src="insta.png" alt="Facebook Logo" class="facebook-icon"></a>
-      </li>
-
-     
-    </ul>
-    <div class="footer-copyright text-center py-3">© 2019 Copyright.
-     
-    </div>
-  </div>
-
-      
-
+<!-- FOOTER START -->
+<footer class="footer">
+        <div class="social-icons">
+            <div class="side-block">
+                <a href="https://www.linkedin.com/messaging/thread/6577841952908165120/" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.instagram.com/ib_joemiller/" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="https://github.com/Yusuf619" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+                </div>
+          <h3>© 2019 Copyright.</h3>
+        </div>
 </footer>
-</section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- #colophon -->
-
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="js/waypoints.min.js"></script>
-<script>
-// When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-    document.getElementById("myTopnav").style.padding = "30px 10px";
-    document.getElementById("logo").style.fontSize = "25px";
-  } else {
-    document.getElementById("myTopnav").style.padding = "80px 10px";
-    document.getElementById("logo").style.fontSize = "35px";
-  }
-}
-</script>
+<!-- FOOTER END  -->
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-
-
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
