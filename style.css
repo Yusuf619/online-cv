@@ -110,6 +110,8 @@ body {
   .topnav {
     overflow: hidden;
     background-color:#ddd ;
+    height: 100px;
+    padding-top: 20px;
   }
   
   .topnav a {
@@ -142,6 +144,10 @@ body {
     display: none;
   }
   
+  .topnav .active i{
+    padding-left: 20px;
+  }
+
   @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
