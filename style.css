@@ -108,7 +108,7 @@ body {
   } */
 
   .topnav {
-    overflow: hidden;
+    /* overflow: hidden; */
     background-color:#ddd ;
     position: fixed;
     top: 0;
@@ -298,6 +298,10 @@ body {
   height: 600px; /* Should be removed. Only for demonstration */
 }
 
+.column1 p{
+  margin-top: 50px;
+}
+
 /* Clear floats after the column3 */
 .row:after {
   content: "";
@@ -308,6 +312,7 @@ body {
   /* position: relative; */
   width: 300px;
   height: 300px;
+  padding-bottom: 10px;
   overflow: hidden;
   border-radius: 50%;
   margin-top: 150px;
@@ -518,12 +523,14 @@ body {
 }
 
 .education h3{
-  margin-left: 5%;
+  margin-left: 10%;
   margin-top: 50px;
+  /* text-align: center; */
+  color: #2980b9;
 }
 
 .education p{
-  margin-left: 10%;
+  margin-left: 15%;
   margin-top: 50px;
   font-size: 20px;
   font-weight: lighter;
@@ -575,6 +582,10 @@ form .btn{
   text-align: center;
   color: white;
   width: 100%;
+}
+
+.contact a{
+  text-decoration: none;
 }
 
 /* CONTACT END */
