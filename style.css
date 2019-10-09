@@ -150,6 +150,8 @@ body {
     padding-left: 20px;
   }
 
+ 
+
 
 
   @media screen and (max-width: 600px) {
@@ -309,7 +311,7 @@ body {
   overflow: hidden;
   border-radius: 50%;
   margin-top: 150px;
-  margin-left: 60px;
+  margin-left: 100px;
 }
 
 .circular--portrait img {

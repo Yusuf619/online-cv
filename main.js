@@ -1,11 +1,3 @@
-// function myFunction() {
-//     var x = document.getElementById("mnavbar");
-//     if (x.className === "navbar") {
-//       x.className += " responsive";
-//     } else {
-//       x.className = "navbar";
-//     }
-//   }
 
 function myFunction() {
   var x = document.getElementById("myTopnav");
@@ -25,6 +17,20 @@ function myFunction() {
       document.getElementById("mnavbar").style.top = "-100px";
     }
   }
+
+
+  $(document).ready(function(){
+    $(window).scroll(function(){
+      var scroll = $(window).scrollTop();
+      if (scroll > 300) {
+        $(".navbar").css("background" , "blue");
+      }
+  
+      else{
+        $(".navbar").css("background" , "#333");  	
+      }
+    })
+  })
 
 
 
