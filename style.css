@@ -109,7 +109,7 @@ body {
 
   .topnav {
     /* overflow: hidden; */
-    background-color:#ddd ;
+    background-color: #ddd ;
     position: fixed;
     top: 0;
     width: 100%;
@@ -149,6 +149,12 @@ body {
   .topnav .active i{
     padding-left: 20px;
   }
+
+  .nav-r a{
+    float: right;
+
+  }
+
 
  
 
