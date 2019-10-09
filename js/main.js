@@ -8,15 +8,15 @@ function myFunction() {
   }
 }
     /* **************************************************************************************************************************/
-  window.onscroll = function() {scrollFunction()};
+  // window.onscroll = function() {scrollFunction()};
 
-  function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-      document.getElementById("mnavbar").style.top = "0";
-    } else {
-      document.getElementById("mnavbar").style.top = "-100px";
-    }
-  }
+  // function scrollFunction() {
+  //   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+  //     document.getElementById("mnavbar").style.top = "0";
+  //   } else {
+  //     document.getElementById("mnavbar").style.top = "-100px";
+  //   }
+  // }
 
 
 
